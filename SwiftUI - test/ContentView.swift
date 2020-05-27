@@ -10,7 +10,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Color(red: 0.10, green: 0.74, blue: 0.61)
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                Image("bhai")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 250, height: 250, alignment: .center)
+                    .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.white, lineWidth: 9))
+                
+                    
+                Text("Myself Mayur")
+                    .font(.custom("Pacifico-Regular", size: 30))
+                    
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                Text("iOS Developer")
+                    .font(.system(size: 20))
+            }
+        }
     }
 }
 
