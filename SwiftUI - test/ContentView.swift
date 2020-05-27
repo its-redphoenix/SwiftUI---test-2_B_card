@@ -22,13 +22,20 @@ struct ContentView: View {
                     .overlay(Circle().stroke(Color.white, lineWidth: 9))
                 
                     
-                Text("Myself Mayur")
+                Text("Myself Bhai")
                     .font(.custom("Pacifico-Regular", size: 30))
                     
                     .foregroundColor(.white)
                     .fontWeight(.bold)
+                
                 Text("iOS Developer")
                     .font(.system(size: 20))
+                
+                Divider()
+                
+                InfoView(text: "9876543210", icon: "phone.fill")
+                InfoView(text: "mayur@redphoenix.co.in", icon: "envelope.fill")
+
             }
         }
     }
@@ -39,3 +46,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

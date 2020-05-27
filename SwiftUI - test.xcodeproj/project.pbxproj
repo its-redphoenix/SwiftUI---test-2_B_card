@@ -14,6 +14,7 @@
 		0BC583DE247DEDBE00A86C95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC583DD247DEDBE00A86C95 /* Preview Assets.xcassets */; };
 		0BC583E1247DEDBE00A86C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC583DF247DEDBE00A86C95 /* LaunchScreen.storyboard */; };
 		0BC583EA247DF25A00A86C95 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BC583E9247DF25A00A86C95 /* Pacifico-Regular.ttf */; };
+		0BC583F0247E03CF00A86C95 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC583EF247E03CF00A86C95 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0BC583E0247DEDBE00A86C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC583E2247DEDBE00A86C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BC583E9247DF25A00A86C95 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0BC583EF247E03CF00A86C95 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0BC583E8247DF23D00A86C95 /* Fonts */,
 				0BC583D4247DEDB700A86C95 /* AppDelegate.swift */,
 				0BC583D6247DEDB700A86C95 /* SceneDelegate.swift */,
+				0BC583EF247E03CF00A86C95 /* InfoView.swift */,
 				0BC583D8247DEDB700A86C95 /* ContentView.swift */,
 				0BC583DA247DEDBE00A86C95 /* Assets.xcassets */,
 				0BC583DF247DEDBE00A86C95 /* LaunchScreen.storyboard */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC583F0247E03CF00A86C95 /* InfoView.swift in Sources */,
 				0BC583D5247DEDB700A86C95 /* AppDelegate.swift in Sources */,
 				0BC583D7247DEDB700A86C95 /* SceneDelegate.swift in Sources */,
 				0BC583D9247DEDB700A86C95 /* ContentView.swift in Sources */,
